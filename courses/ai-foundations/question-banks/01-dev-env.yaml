@@ -1,0 +1,19 @@
+title: Dev Environment & Collaboration
+questions:
+  - type: mc
+    stem: Which tool is recommended for isolating Python dependencies in this course?
+    options: [conda, system Python, brew, npm]
+    answer: conda
+
+  - type: tf
+    stem: A proper Git workflow involves creating a feature branch, committing changes, and opening a pull request.
+    answer: true
+
+  - type: mc
+    stem: Which IDE is recommended for production coding in this module?
+    options: [Jupyter, VSCode, PyCharm, Sublime]
+    answer: VSCode
+
+  - type: tf
+    stem: JupyterLab is primarily used for prototyping and exploration.
+    answer: true

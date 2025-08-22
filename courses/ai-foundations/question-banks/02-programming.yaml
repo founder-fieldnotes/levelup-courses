@@ -1,0 +1,16 @@
+title: Programming for AI/DS
+questions:
+  - type: mc
+    stem: Which NumPy function computes the dot product used in cosine similarity?
+    options: [np.dot, np.cross, np.matmul ("@"), np.linalg.inv]
+    answer: np.dot
+  - type: tf
+    stem: Broadcasting allows operations on arrays of different shapes when compatible.
+    answer: true
+  - type: mc
+    stem: In this course, z-score standardization for a Series uses which standard deviation?
+    options: [ddof=0 (population), ddof=1 (sample)]
+    answer: ddof=0 (population)
+  - type: tf
+    stem: A zero-variance Series should produce all zeros after z-scoring.
+    answer: true

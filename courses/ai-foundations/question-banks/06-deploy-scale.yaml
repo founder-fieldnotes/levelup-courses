@@ -1,0 +1,16 @@
+title: Deployment & Scaling
+questions:
+  - type: mc
+    stem: Which FastAPI tool is commonly used to test endpoints synchronously in unit tests?
+    options: [requests.Session, aiohttp.ClientSession, fastapi.testclient.TestClient, curl]
+    answer: fastapi.testclient.TestClient
+  - type: tf
+    stem: A `/health` endpoint is typically used by orchestration systems to determine service liveness.
+    answer: true
+  - type: mc
+    stem: Which file defines container build steps for your service?
+    options: [docker-compose.yml, Dockerfile, requirements.txt, Procfile]
+    answer: Dockerfile
+  - type: tf
+    stem: Horizontal scaling usually means running multiple replicas behind a load balancer.
+    answer: true

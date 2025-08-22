@@ -1,0 +1,20 @@
+title: RAG & Knowledge-Driven NLP
+questions:
+  - type: mc
+    stem: Which retrieval approach uses inverted indexes and term frequencies?
+    options: [Dense retrieval, TF-IDF/BM25, Encoder-decoder, Re-ranking only]
+    answer: TF-IDF/BM25
+  - type: tf
+    stem: In top-k retrieval evaluation, higher recall@k generally indicates better coverage.
+    answer: true
+  - type: mc
+    stem: A core benefit of RAG compared to pure generation is:
+    options:
+      - Lower latency in all cases
+      - Access to up-to-date or domain-specific knowledge at query time
+      - No need for any retriever component
+      - It replaces evaluation entirely
+    answer: Access to up-to-date or domain-specific knowledge at query time
+  - type: tf
+    stem: Hybrid retrieval combines sparse (e.g., BM25) and dense vectors.
+    answer: true

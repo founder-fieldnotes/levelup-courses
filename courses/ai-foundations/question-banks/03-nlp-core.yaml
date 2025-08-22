@@ -1,0 +1,20 @@
+title: NLP Core
+questions:
+  - type: mc
+    stem: Why should tokenization be Unicode-aware?
+    options:
+      - To correctly handle accents and non-Latin scripts
+      - To automatically remove stopwords
+      - To speed up training by 10x
+      - To create word embeddings
+    answer: To correctly handle accents and non-Latin scripts
+  - type: tf
+    stem: Stopword removal should typically occur before building bigrams.
+    answer: true
+  - type: mc
+    stem: Which is a contextual embedding model?
+    options: [word2vec, GloVe, fastText, BERT]
+    answer: BERT
+  - type: tf
+    stem: Bigram features can help capture short phrases like "new york".
+    answer: true

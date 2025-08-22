@@ -38,4 +38,8 @@ nav:
   - Assessments: assessments.md
   - Modules:
     - "01 · Dev Environment & Collaboration": modules/01-dev-env.md
-    - "02 · Programming for AI/DS": modules/02
+    - "02 · Programming for AI/DS": modules/02-programming.md
+    - "03 · NLP Core": modules/03-nlp-core.md
+    - "04 · RAG & Knowledge-Driven NLP": modules/04-rag-kg.md
+    - "05 · Semantic Web in Practice": modules/05-semweb.md
+    - "06 · Deployment & Scaling": modules/06-deploy-scale.md

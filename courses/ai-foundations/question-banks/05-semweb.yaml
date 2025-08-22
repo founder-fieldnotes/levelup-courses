@@ -1,0 +1,16 @@
+title: Semantic Web in Practice
+questions:
+  - type: mc
+    stem: A knowledge graph triple is structured as:
+    options: [predicate–subject–object, subject–predicate–object, object–subject–predicate, subject–object–predicate]
+    answer: subject–predicate–object
+  - type: tf
+    stem: Rule-based reasoning can infer new relations not explicitly present in the data.
+    answer: true
+  - type: mc
+    stem: Which store can manage RDF triples?
+    options: [Blazegraph, MySQL only, Redis Streams, Kafka]
+    answer: Blazegraph
+  - type: tf
+    stem: Ontology-based entity disambiguation can improve NER outputs.
+    answer: true
