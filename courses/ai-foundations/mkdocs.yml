@@ -1,5 +1,6 @@
-site_name: LevelUp: AI Foundations
-site_url: https://YOUR-USERNAME.github.io/levelup-courses   # update with your username
+site_name: "LevelUp: AI Foundations"
+site_url: https://founder-fieldnotes.github.io/levelup-courses
+
 theme:
   name: material
   palette:
@@ -14,11 +15,14 @@ theme:
     - navigation.instant
     - navigation.top
     - content.code.copy
+
 extra_css:
   - styles/extra.css
+
 nav:
   - Welcome: index.md
   - Module 1: module-1.md
   - Module 2: module-2.md
+
 plugins:
   - git-revision-date-localized
