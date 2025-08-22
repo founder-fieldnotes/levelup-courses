@@ -1,6 +1,11 @@
 site_name: "LevelUp: AI Foundations"
 site_url: https://founder-fieldnotes.github.io/levelup-courses
 
+# Tell MkDocs where your markdown lives
+docs_dir: courses/ai-foundations/docs
+# Optional: keep the build output with the course
+site_dir: courses/ai-foundations/site
+
 theme:
   name: material
   palette:
@@ -16,8 +21,12 @@ theme:
     - navigation.top
     - content.code.copy
 
+# All CSS/JS paths are now relative to docs_dir
 extra_css:
   - styles/extra.css
+  - assets/embed.css
+extra_javascript:
+  - assets/embed.js
 
 nav:
   - Welcome: index.md
