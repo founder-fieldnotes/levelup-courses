@@ -5,3 +5,4 @@
 - Links to labs (Colab/Binder)
 
 > This page updates the moment we push changes on GitHub.
+**Live update:** pipeline works.
