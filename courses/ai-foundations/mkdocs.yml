@@ -1,0 +1,41 @@
+site_name: AI Foundations
+site_description: LevelUp Academy | AI Foundations Course
+site_url: https://founder-fieldnotes.github.io/levelup-courses/ai-foundations/
+repo_url: https://github.com/founder-fieldnotes/levelup-courses
+repo_name: levelup-courses
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  language: en
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+
+nav:
+  - Overview: index.md
+  - Syllabus: syllabus.md
+  - Logistics: logistics.md
+  - Assessments: assessments.md
+  - Modules:
+    - "01 · Dev Environment & Collaboration": modules/01-dev-env.md
+    - "02 · Programming for AI/DS": modules/02
